@@ -1,0 +1,26 @@
+<app-loading [loading]="loading"></app-loading>
+<div class="quizz_container">
+  <div class="quizz_logo">
+    <img src="assets/imgs/logo.png" alt="">
+    <h3>{{ quizResult.category }}</h3>
+  </div>
+
+  <div class="quizz_questions" *ngIf="!hasFinished">
+    <h3>{{ quizResult.question }}</h3>
+  </div>
+
+  <div class="quizz_options" *ngIf="!hasFinished">
+    <button 
+      class="btn btn-option"
+      *ngFor="let question of quizResult.questions; let i = index"
+      (click)="questionSelected(question)"
+    >
+      {{ question }}
+    </button>
+  </div>
+
+  <div class="quizz_results" *ngIf="hasFinished">
+    <h1>Result</h1>
+    <p>Your score is {{ score }} / {{ numberOfQuestions }}</p>
+  </div>
+</div>
