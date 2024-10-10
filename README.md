@@ -8,8 +8,6 @@
 
 Um quiz construído em Angular 18 no estilo do buzzfeed, utilizando a API do open trivia database com perguntas sobre jogos. Bootcamp Deal - Spring Boot e Angular (17+)
 
-O projeto foi elaborado [nesse vídeo](https://youtu.be/SsWZ4O9iWuo).
-
 ## Tecnologias
  
 - [Angular](https://angular.dev/)
