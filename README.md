@@ -6,7 +6,7 @@
  <img src="https://img.shields.io/static/v1?label=Tipo&message=Desafio&color=8257E5&labelColor=000000" alt="Desafio" />
 </p>
 
-API para gerenciar lugares (CRUD) que faz parte [desse desafio](https://github.com/RocketBus/quero-ser-clickbus/tree/master/testes/backend-developer) para pessoas desenvolvedoras backend que se candidatam para a ClickBus.
+Um quiz construído em Angular 18 no estilo do buzzfeed, utilizando a API do open trivia database com perguntas sobre jogos. Bootcamp Deal - Spring Boot e Angular (17+)
 
 O projeto foi elaborado [nesse vídeo](https://youtu.be/SsWZ4O9iWuo).
 
